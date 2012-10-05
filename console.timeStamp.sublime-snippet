@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+console.timeStamp('${1:name}');
+]]></content>
+	<tabTrigger>console</tabTrigger>
+	<description>console.timeStamp()</description>
+</snippet>

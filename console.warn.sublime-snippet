@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+console.warn(${1:var1}${2:, var2});
+]]></content>
+	<tabTrigger>console</tabTrigger>
+	<description>console.warn()</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+console.time('${1:Timer Title}');
+	${2:// Your code you want to measure}
+console.timeEnd('${3:Timer Title}');
+]]></content>
+	<tabTrigger>console</tabTrigger>
+	<description>console.time()</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+console.table(${1:data}${2:, columns});
+]]></content>
+	<tabTrigger>console</tabTrigger>
+	<description>console.table()</description>
+</snippet>

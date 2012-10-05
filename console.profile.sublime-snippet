@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+console.profile('${1:Profile Title}');
+	${2:// Your code you want to measure}
+console.profileEnd('${3:Profile Title}');
+]]></content>
+	<tabTrigger>console</tabTrigger>
+	<description>console.profile()</description>
+</snippet>

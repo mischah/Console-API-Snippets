@@ -4,4 +4,5 @@ console.dirxml(${1:node});
 ]]></content>
 	<tabTrigger>console</tabTrigger>
 	<description>console.dirxml()</description>
+	<scope>source.js</scope>
 </snippet>

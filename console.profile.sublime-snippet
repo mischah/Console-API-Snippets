@@ -6,4 +6,5 @@ console.profileEnd('${3:Profile Title}');
 ]]></content>
 	<tabTrigger>console</tabTrigger>
 	<description>console.profile()</description>
+	<scope>source.js</scope>
 </snippet>

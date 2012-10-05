@@ -4,4 +4,5 @@ console.clear();
 ]]></content>
 	<tabTrigger>console</tabTrigger>
 	<description>console.clear()</description>
+	<scope>source.js</scope>
 </snippet>

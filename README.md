@@ -1,4 +1,4 @@
-#Console API Snippets for Sublime Text
+#JavaScript Console API Snippets for Sublime Text
 
 This is a [Sublime Text 2][sublime] package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.
 

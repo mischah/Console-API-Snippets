@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 console.time('${1:Timer Title}');
-	${2:// Your code you want to measure}
+	${2:// The code you like to measure}
 console.timeEnd('${3:Timer Title}');
 ]]></content>
 	<tabTrigger>console</tabTrigger>

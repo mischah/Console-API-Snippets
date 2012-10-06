@@ -40,7 +40,49 @@ Or just download the package from [download page][download] here at github and c
 3. Hit the »Return« key (↵)
 4. Use Tab to jump jump through the placeholders and replace them accruing to your needs
 
+![Screenshot](http://mischah.github.com/Console-API-Snippets/screenshots/console.group.png)
 
- 
- 
+##About the Console API
 
+You should have a look at »[Firebug and Logging][firebug_info]« to get an idea of how useful it is to know the different console methods.
+
+The snippets I’m offering are based on the console object from Firebug. See [Firebug Console API][firebug_api] for details.
+
+You could also have a look at these tutorials:
+
+- [Firebug Tutorial – Logging, Profiling And Commandline (Part I)][firebug_tut_1]
+- [Firebug Tutorial – Logging, Profiling And Commandline (Part II)][firebug_tut_2]
+
+###Different browsers, different capabilities
+The implementation of the Console API are differing from browser to browser. 
+
+You don't have to worry when it comes to modern browsers like Chrome, Firefox, Safari and Opera. I’m not sure about IE9 and IE10, but especially the old version of Internet Explorer have a lack of console methods.
+
+So you need a type of »Console Fix« to prevent, that browsers are throwing errors because of unknown methods.
+
+####A basic console fix:
+The simplest way to accomplish that is to include a small snippet like the following in which you can define the missing methods you are using as »empty« methods to prevent errors.
+
+	if (!window.console) {
+		window.console = {
+			log		: function (event) {},
+			info	: function (event) {},
+			warn	: function (event) {},
+			error	: function (event) {}
+		};
+	}
+
+####A more advanced console fix
+Mike Wilcox has a more advanced approach. See »[JavaScript Console Fix V2][console_fix]«.
+
+####One last thing
+You should avoid to deploy console output to your production server. 
+If you are using [Grunt][grunt]: There is a [task for that][grunt_task]. 
+
+[firebug_info]: http://getfirebug.com/logging
+[firebug_api]: http://getfirebug.com/wiki/index.php/Console_API
+[firebug_tut_1]: http://michaelsync.net/2007/09/09/firebug-tutorial-logging-profiling-and-commandline-part-i
+[firebug_tut_2]: http://michaelsync.net/2007/09/10/firebug-tutorial-logging-profiling-and-commandline-part-ii
+[console_fix]: http://clubajax.org/javascript-console-fix-v2-now-with-ios/
+[grunt]: http://gruntjs.com/
+[grunt_task]: https://github.com/ehynds/grunt-remove-logging

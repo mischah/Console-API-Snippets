@@ -159,12 +159,11 @@ img {
 }
 
 pre, code {
-  width: 100%;
   color: #222;
   background-color: #fff;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
+  font-size: 12px;
 
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -175,15 +174,13 @@ pre, code {
 }
 
 pre {
-  width: 100%;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
 
 code {
-  padding: 3px;
-  margin: 0 3px;
+  text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
@@ -368,6 +365,11 @@ Full-Width Styles
 
 #main_content {
   padding-top: 40px;
+}
+
+.screenshot {
+  border: none;
+  padding: 0;
 }
 
 #footer_wrap {

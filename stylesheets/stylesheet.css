@@ -3,8 +3,6 @@ Slate Theme for Github Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
-@import url(pygment_trac.css);
-
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
@@ -138,8 +136,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
+  max-width: 640px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
@@ -172,7 +169,7 @@ pre {
 }
 
 code {
-  text-align: center;
+  text-align: left;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
@@ -247,7 +244,6 @@ form {
 }
 
 img {
-  width: 100%;
   max-width: 100%;
 }
 

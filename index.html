@@ -31,48 +31,99 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+
         <h1>JavaScript Console API Snippets for Sublime Text</h1>
 
-<p>This is a <a href="http://www.sublimetext.com/">Sublime Text 2</a> package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.</p>
+        <p>This is a <a href="http://www.sublimetext.com/">Sublime Text 2</a> package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.</p>
 
-<h2>Installation</h2>
+        <h2>Installation</h2>
 
-<h3>With Package Control</h3>
+        <h3>With Package Control</h3>
 
-<p>If you have the <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> package installed, you can install Console API Snippets from inside Sublime Text itself. Open the Command Palette and select »Package Control: Install Package«, then search for »Console API Snippets«.</p>
+        <p>If you have the <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> package installed, you can install Console API Snippets from inside Sublime Text itself. Open the Command Palette and select »Package Control: Install Package«, then search for »Console API Snippets«.</p>
 
-<p>It just works ; ]</p>
+        <p>It just works ; ]</p>
 
-<p>… check <a href="https://tutsplus.com/lesson/package-control/">this video</a> if you still need assistance.</p>
+        <p>… check <a href="https://tutsplus.com/lesson/package-control/">this video</a> if you still need assistance.</p>
 
-<h3>Without Package Control</h3>
+        <h3>Without Package Control</h3>
 
-<p>If you haven't got Package Control installed (seriously, go install it!) you will need to make a clone of this repository into your packages folder, like so:</p>
+        <p>If you haven't got Package Control installed (seriously, go install it!) you will need to make a clone of this repository into your packages folder, like so:</p>
 
-<pre><code>git clone https://github.com/mischah/Console-API-Snippets.git Console-API-Snippets
-</code></pre>
+        <pre><code>git clone https://github.com/mischah/Console-API-Snippets.git Console-API-Snippets</code></pre>
 
-<p>The packages folder is located here:</p>
+        <p>The packages folder is located here:</p>
 
-<ul>
-<li>Windows: %APPDATA%\Sublime Text 2\Packages</li>
-<li>OS X: ~/Library/Application Support/Sublime Text 2/Packages</li>
-<li>Linux: ~/.Sublime Text 2/Packages</li>
-<li>Portable Installation: Sublime Text 2/Data/Packages</li>
-</ul><p>… check <a href="https://tutsplus.com/lesson/installing-plugins-without-package-control/">this video</a> if you still need assistance.</p>
+        <ul>
+        <li>Windows: %APPDATA%\Sublime Text 2\Packages</li>
+        <li>OS X: ~/Library/Application Support/Sublime Text 2/Packages</li>
+        <li>Linux: ~/.Sublime Text 2/Packages</li>
+        <li>Portable Installation: Sublime Text 2/Data/Packages</li>
+        </ul>
 
-<p>Or just download the package from <a href="https://github.com/mischah/Console-API-Snippets/downloads">download page</a> here at github and copy the folder »Console-API-Snippets« to the packages folder on your machine.</p>
 
-<h2>Usage</h2>
+        <p>… check <a href="https://tutsplus.com/lesson/installing-plugins-without-package-control/">this video</a> if you still need assistance.</p>
 
-<ol>
-<li>Just type »console« and hit the »Tab« key (⇥)</li>
-<li>Select one of the offered console methods with your cursor</li>
-<li>Hit the »Return« key (↵)</li>
-<li>Use Tab to jump jump through the placeholders and replace them accruing to your needs</li>
-</ol>
+        <p>Or just download the package from <a href="https://github.com/mischah/Console-API-Snippets/downloads">download page</a> here at github and copy the folder »Console-API-Snippets« to the packages folder on your machine.</p>
 
-<img src="screenshots/console.group.png" class="screenshot" alt="">
+        <h2>Usage</h2>
+
+        <ol>
+        <li>Just type »console« and hit the »Tab« key (⇥)</li>
+        <li>Select one of the offered console methods with your cursor</li>
+        <li>Hit the »Return« key (↵)</li>
+        <li>Use Tab to jump jump through the placeholders and replace them accruing to your needs</li>
+        </ol>
+
+        <img src="http://mischah.github.com/Console-API-Snippets/screenshots/console.group.png" alt="Screenshot" />
+
+        <h2>About the Console API</h2>
+
+        <p>You should have a look at »<a href="http://getfirebug.com/logging">Firebug and Logging</a>« to get an idea of how useful it is to know the different console methods.</p>
+
+        <p>The snippets I’m offering are based on the console object from Firebug. See <a href="http://getfirebug.com/wiki/index.php/Console_API">Firebug Console API</a> for details.</p>
+
+        <p>You could also have a look at these tutorials:</p>
+
+        <ul>
+        <li><a href="http://michaelsync.net/2007/09/09/firebug-tutorial-logging-profiling-and-commandline-part-i">Firebug Tutorial – Logging, Profiling And Commandline (Part I)</a></li>
+        <li><a href="http://michaelsync.net/2007/09/10/firebug-tutorial-logging-profiling-and-commandline-part-ii">Firebug Tutorial – Logging, Profiling And Commandline (Part II)</a></li>
+        </ul>
+
+
+        <h3>Different browsers, different capabilities</h3>
+
+        <p>The implementation of the Console API are differing from browser to browser.</p>
+
+        <p>You don't have to worry when it comes to modern browsers like Chrome, Firefox, Safari and Opera. I’m not sure about IE9 and IE10, but especially the old version of Internet Explorer have a lack of console methods.</p>
+
+        <p>So you need a type of »Console Fix« to prevent, that browsers are throwing errors because of unknown methods.</p>
+
+        <h4>A basic console fix:</h4>
+
+        <p>The simplest way to accomplish that is to include a small snippet like the following in which you can define the missing methods you are using as »empty« methods to prevent errors.</p>
+
+<pre><code>if (!window.console) {
+    window.console = {
+        log     : function (event) {},
+        info    : function (event) {},
+        warn    : function (event) {},
+        error   : function (event) {}
+    };
+}</code></pre>
+
+        <h4>A more advanced console fix</h4>
+
+        <p>Mike Wilcox has a more advanced approach. See »<a href="http://clubajax.org/javascript-console-fix-v2-now-with-ios/">JavaScript Console Fix V2</a>«.</p>
+
+        <h4>One last thing</h4>
+
+        <p>You should avoid to deploy console output to your production server.</p>
+        <img src="images/production.jpg" alt="">
+        <p>
+          If you are using <a href="http://gruntjs.com/">Grunt</a>: There is a <a href="https://github.com/ehynds/grunt-remove-logging">task for that</a>.
+        </p>
+
       </section>
     </div>
 

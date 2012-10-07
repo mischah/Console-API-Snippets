@@ -40,7 +40,7 @@ Or just download the package from [download page][download] here at github and c
 3. Hit the »Return« key (↵)
 4. Use Tab to jump jump through the placeholders and replace them accruing to your needs
 
-![Screenshot](http://mischah.github.com/Console-API-Snippets/screenshots/console.group.png)
+![Screenshot](http://mischah.github.com/Console-API-Snippets/images/console.group.png)
 
 ##About the Console API
 
@@ -77,6 +77,9 @@ Mike Wilcox has a more advanced approach. See »[JavaScript Console Fix V2][cons
 
 ####One last thing
 You should avoid to deploy console output to your production server. 
+
+![](http://mischah.github.com/Console-API-Snippets/images/production.jpg)
+
 If you are using [Grunt][grunt]: There is a [task for that][grunt_task]. 
 
 [firebug_info]: http://getfirebug.com/logging

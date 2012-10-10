@@ -89,3 +89,16 @@ If you are using [Grunt][grunt]: There is a [task for that][grunt_task].
 [console_fix]: http://clubajax.org/javascript-console-fix-v2-now-with-ios/
 [grunt]: http://gruntjs.com/
 [grunt_task]: https://github.com/ehynds/grunt-remove-logging
+
+## Author
+Michael Kühnel ⤳ [Interweb](http://michael-kuehnel.de)
+
+
+## License
+Use it, change it, fork it, sell it. Do what you will, but please leave the author attribution.
+
+##Version history
+
+**Version 1.0 (10/10/2012)**
+
+- Initial release 

@@ -105,4 +105,4 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 
 **Version 1.0.1 (10-22-2012)**
 
-- Add CoffeeScript support 
+- Add CoffeeScript support. Thanks to [Allen Bargi](https://github.com/aziz)

@@ -3,7 +3,7 @@
 	"packages": [
 		{
 			"name": "Console API Snippets (JavaScript)",
-			"description": "This is a Sublime Text 2 package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.",
+			"description": "Snippets for using the Console API of Firebug or other web Inspector tools.",
 			"author": "Michael Kühnel",
 			"homepage": "http://mischah.github.com/Console-API-Snippets/",
 			"last_modified": "2012-10-10 12:40:21",

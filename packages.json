@@ -6,7 +6,7 @@
 			"description": "Snippets for using the Console API of Firebug or other web Inspector tools.",
 			"author": "Michael Kühnel",
 			"homepage": "http://mischah.github.com/Console-API-Snippets/",
-			"last_modified": "2012-10-10 12:40:21",
+			"last_modified": "2012-10-22 12:40:21",
 			"platforms": {
 				"*": [
 					{

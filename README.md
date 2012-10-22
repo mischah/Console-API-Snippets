@@ -106,3 +106,6 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 **Version 1.0.1 (10-22-2012)**
 
 - Add CoffeeScript support. Thanks to [Allen Bargi](https://github.com/aziz)
+
+-----
+[![Flattr Button](http://mischah.github.com/Console-API-Snippets/images/flattr.png)](https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text)

@@ -10,8 +10,8 @@
 			"platforms": {
 				"*": [
 					{
-						"version": "1.0",
-						"url": "https://nodeload.github.com/mischah/Console-API-Snippets/zipball/1.0"
+						"version": "1.0.1",
+						"url": "https://nodeload.github.com/mischah/Console-API-Snippets/zipball/1.0.1"
 					}
 				]
 			}

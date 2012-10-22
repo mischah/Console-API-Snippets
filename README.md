@@ -99,6 +99,10 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 
 ##Version history
 
-**Version 1.0 (10/10/2012)**
+**Version 1.0 (10-10-2012)**
 
 - Initial release 
+
+**Version 1.0.1 (10-22-2012)**
+
+- Add CoffeeScript support 

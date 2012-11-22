@@ -2,6 +2,8 @@
 
 This is a [Sublime Text 2][sublime] package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.
 
+[![Flattr Button](http://mischah.github.com/Console-API-Snippets/images/flattr.png)](https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text)
+
 ##Installation
 
 ### With Package Control ###
@@ -38,13 +40,17 @@ Or just download the package from [download page][download] here at github and c
 1. Just type »console« and hit the »Tab« key (⇥)
 2. Select one of the offered console methods with your cursor
 3. Hit the »Return« key (↵)
-4. Use Tab to jump jump through the placeholders and replace them accruing to your needs
+4. Use Tab to jump through the placeholders and replace them accruing to your needs
 
 ![Screenshot](http://mischah.github.com/Console-API-Snippets/images/console.group.png)
 
 ##About the Console API
 
 You should have a look at »[Firebug and Logging][firebug_info]« to get an idea of how useful it is to know the different console methods.
+
+Or check the screencast »Become a Javascript Console Power-User« from Paul Irish:
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/4mf_yNLlgic?rel=0" frameborder="0" allowfullscreen></iframe>
 
 The snippets I’m offering are based on the console object from Firebug. See [Firebug Console API][firebug_api] for details.
 
@@ -107,5 +113,9 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 
 - Add CoffeeScript support. Thanks to [Allen Bargi](https://github.com/aziz)
 
------
-[![Flattr Button](http://mischah.github.com/Console-API-Snippets/images/flattr.png)](https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text)
+**Version 1.0.2 (11-22-2012)**
+
+- Fix typo in readme and github pages
+- Add screencast »Become a Javascript Console Power-User« to readme and github pages
+
+

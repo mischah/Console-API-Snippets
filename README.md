@@ -46,11 +46,7 @@ Or just download the package from [download page][download] here at github and c
 
 ##About the Console API
 
-You should have a look at »[Firebug and Logging][firebug_info]« to get an idea of how useful it is to know the different console methods.
-
-Or check the screencast »Become a Javascript Console Power-User« from Paul Irish:
-
-<iframe width="640" height="480" src="http://www.youtube.com/embed/4mf_yNLlgic?rel=0" frameborder="0" allowfullscreen></iframe>
+You should have a look at »[Firebug and Logging][firebug_info]« to get an idea of how useful it is to know the different console methods. Or check the screencast »[Become a Javascript Console Power-User][screencast]« from Paul Irish.
 
 The snippets I’m offering are based on the console object from Firebug. See [Firebug Console API][firebug_api] for details.
 
@@ -89,6 +85,7 @@ You should avoid to deploy console output to your production server.
 If you are using [Grunt][grunt]: There is a [task for that][grunt_task]. 
 
 [firebug_info]: http://getfirebug.com/logging
+[screencast]: http://www.youtube.com/watch?v=4mf_yNLlgic
 [firebug_api]: http://getfirebug.com/wiki/index.php/Console_API
 [firebug_tut_1]: http://michaelsync.net/2007/09/09/firebug-tutorial-logging-profiling-and-commandline-part-i
 [firebug_tut_2]: http://michaelsync.net/2007/09/10/firebug-tutorial-logging-profiling-and-commandline-part-ii

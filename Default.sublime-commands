@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Console.time()",
+        "caption": "console.time() - Wrapper",
         "command": "console_time"
     }
 ]

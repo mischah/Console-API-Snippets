@@ -61,9 +61,9 @@ class ConsoleTimeCommand(sublime_plugin.TextCommand):
             reps.update(text=text)
             reps.update(self.get_indents(line))
 
-            snippet = """{first_indent}console.time("${{1:Timer}}");
+            snippet = """{first_indent}console.time('${{1:Timer Title}}');
 {pre_text}${{2:{text}}}{post_text}$0
-{last_indent}console.timeEnd("${{1:Timer}}");"""
+{last_indent}console.timeEnd('${{1:Timer Title}}');"""
 
             self.view.sel().clear()
             self.view.sel().add(line)

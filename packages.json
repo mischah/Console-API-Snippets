@@ -3,6 +3,7 @@
 	"packages": [
 		{
 			"name": "Console API Snippets (JavaScript)",
+			"description": "JavaScript Console API Snippets for Sublime Text",
 			"author": "Michael Kühnel",
 			"homepage": "http://mischah.github.com/Console-API-Snippets/",
 			"labels": ["snippets"],

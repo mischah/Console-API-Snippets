@@ -8,6 +8,8 @@
 			"homepage": "http://mischah.github.com/Console-API-Snippets/",
 			"labels": ["snippets"],
 			"donate": "https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text",
+			"readme": "https://raw.github.com/mischah/Console-API-Snippets/master/README.md",
+			"issues": "https://github.com/mischah/Console-API-Snippets/issues",
 			"releases": [
 				{
 					"details": "https://github.com/mischah/Console-API-Snippets/tags"

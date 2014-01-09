@@ -5,13 +5,12 @@
 			"name": "Console API Snippets (JavaScript)",
 			"description": "JavaScript Console API Snippets for Sublime Text",
 			"author": "Michael Kühnel",
-			"homepage": "http://mischah.github.com/Console-API-Snippets/",
+			"details": "http://mischah.github.com/Console-API-Snippets/",
 			"labels": ["snippets"],
 			"donate": "https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text",
-			"readme": "https://raw.github.com/mischah/Console-API-Snippets/master/README.md",
-			"issues": "https://github.com/mischah/Console-API-Snippets/issues",
 			"releases": [
 				{
+					"sublime_text": "*",
 					"details": "https://github.com/mischah/Console-API-Snippets/tags"
 				}
 			]

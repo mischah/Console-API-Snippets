@@ -121,5 +121,9 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 
 - Add console.time wrapper which lets you wrap console.time statements around your selected code. Thanks to [Joe Maller](https://github.com/joemaller)
 
+**Version 1.0.4 (11-10-2014)**
+
+- Simplify console.time wrapper. Thanks to [PSeitz](https://github.com/PSeitz).
+
 
 

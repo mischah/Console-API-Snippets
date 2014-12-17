@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+console.time('${1:Timer Title}');
+$SELECTION
+console.timeEnd('${1:Timer Title}');
+]]></content>
+    <tabTrigger>console</tabTrigger>
+    <description>console.time()</description>
+    <scope>source.js, source.coffee</scope>
+</snippet>

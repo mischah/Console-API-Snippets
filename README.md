@@ -44,7 +44,7 @@ Or just download the package from [download page][download] here at github and c
 
 ![Screenshot](http://mischah.github.com/Console-API-Snippets/images/console.group.png)
 
-You could also wrap console.time() and console.timeEnd() around existing code by opening the command palette (cmd ⌘ + shift ⇧ + P) and begin to type »console.time« and choose »console.time() - Wrapper«.
+You could also wrap console.time() and console.timeEnd() around existing code by opening the command palette (cmd ⌘ + shift ⇧ + P) and begin to type »console.time« and choose »Snippet: console.time()«.
 
 ##About the Console API
 
@@ -120,6 +120,10 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 **Version 1.0.3 (09-08-2013)**
 
 - Add console.time wrapper which lets you wrap console.time statements around your selected code. Thanks to [Joe Maller](https://github.com/joemaller)
+
+**Version 1.0.4 (11-10-2014)**
+
+- Simplify console.time wrapper. Thanks to [PSeitz](https://github.com/PSeitz).
 
 
 

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.table(${1:data}${2:, columns});
+console.table(${1:data}${2:, ['${3:columnName}']});
 ]]></content>
 	<tabTrigger>console</tabTrigger>
 	<description>console.table()</description>

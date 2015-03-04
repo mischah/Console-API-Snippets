@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.exception(${1:errorObject}${2:, optionalVar});
+console.exception(${1:errorObject}${2:, ${3:optionalVar}});
 ]]></content>
 	<tabTrigger>console</tabTrigger>
 	<description>console.exception()</description>

@@ -14,7 +14,10 @@ Version 1.0.2 (11-22-2012)
 Version 1.0.3 (09-08-2013)
 - Add console.time wrapper which lets you wrap console.time statements around your selected code.
 
-Version 1.0.3 (11-10-20143)
+Version 1.0.4 (11-10-2014)
 - Simplify console.time wrapper. Thanks to PSeitz.
 
-See http://mischah.github.com/Console-API-Snippets for details.
+Version 1.0.5 (03-08-2015)
+- Improve tabbing. Thanks to @gaboesquivel.
+
+See <http://mischah.github.com/Console-API-Snippets> for details.

@@ -84,7 +84,7 @@ You should avoid to deploy console output to your production server.
 
 ![](http://mischah.github.com/Console-API-Snippets/images/production.jpg)
 
-If you are using [Grunt][grunt]: There is a [task for that][grunt_task]. 
+If you are using [UglifyJS](https://github.com/mishoo/UglifyJS2) just use the compressor option `drop_console` to get rid of console stuff in your code.
 
 [firebug_info]: http://getfirebug.com/logging
 [screencast]: http://www.youtube.com/watch?v=4mf_yNLlgic
@@ -124,6 +124,10 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 **Version 1.0.4 (11-10-2014)**
 
 - Simplify console.time wrapper. Thanks to [PSeitz](https://github.com/PSeitz).
+
+**Version 1.0.5 (08-03-2015)**
+
+- Improve tabbing. Thanks to [gaboesquivel](https://github.com/gaboesquivel).
 
 
 

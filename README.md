@@ -1,10 +1,8 @@
-#JavaScript Console API Snippets for Sublime Text
+# JavaScript Console API Snippets for Sublime Text
 
 This is a [Sublime Text 2][sublime] package including a bunch of handy snippets for using the Console API of Firebug or other web Inspector tools in the browser of your choice.
 
-[![Flattr Button](http://mischah.github.com/Console-API-Snippets/images/flattr.png)](https://flattr.com/thing/953497/JavaScript-Console-API-Snippets-for-Sublime-Text)
-
-##Installation
+## Installation
 
 ### With Package Control ###
 
@@ -14,7 +12,7 @@ It just works ; ]
 
 … check [this video][package_control_video] if you still need assistance.
 
-###Without Package Control
+### Without Package Control
 If you haven't got Package Control installed (seriously, go install it!) you will need to make a clone of this repository into your packages folder, like so:
 
 	git clone https://github.com/mischah/Console-API-Snippets.git Console-API-Snippets
@@ -36,7 +34,7 @@ Or just download the package from [download page][download] here at github and c
 [package_control_video]: https://tutsplus.com/lesson/package-control/
 [manual_install_video]: https://tutsplus.com/lesson/installing-plugins-without-package-control/
 
-##Usage
+## Usage
 1. Just type »console« and hit the »Tab« key (⇥)
 2. Select one of the offered console methods with your cursor
 3. Hit the »Return« key (↵)
@@ -46,7 +44,7 @@ Or just download the package from [download page][download] here at github and c
 
 You could also wrap console.time() and console.timeEnd() around existing code by opening the command palette (cmd ⌘ + shift ⇧ + P) and begin to type »console.time« and choose »Snippet: console.time()«.
 
-##About the Console API
+## About the Console API
 
 You should have a look at »[Firebug and Logging][firebug_info]« to get an idea of how useful it is to know the different console methods. Or check the screencast »[Become a Javascript Console Power-User][screencast]« from Paul Irish.
 
@@ -57,7 +55,7 @@ You could also have a look at these tutorials:
 - [Firebug Tutorial – Logging, Profiling And Commandline (Part I)][firebug_tut_1]
 - [Firebug Tutorial – Logging, Profiling And Commandline (Part II)][firebug_tut_2]
 
-###Different browsers, different capabilities
+### Different browsers, different capabilities
 The implementation of the Console API are differing from browser to browser. 
 
 You don't have to worry when it comes to modern browsers like Chrome, Firefox, Safari and Opera. I’m not sure about IE9 and IE10, but especially the old version of Internet Explorer have a lack of console methods.
@@ -76,10 +74,10 @@ The simplest way to accomplish that is to include a small snippet like the follo
 		};
 	}
 
-####A more advanced console fix
+#### A more advanced console fix
 Mike Wilcox has a more advanced approach. See »[JavaScript Console Fix V2][console_fix]«.
 
-####One last thing
+#### One last thing
 You should avoid to deploy console output to your production server. 
 
 ![](http://mischah.github.com/Console-API-Snippets/images/production.jpg)
@@ -102,7 +100,7 @@ Michael Kühnel ⤳ [Interweb](http://michael-kuehnel.de)
 ## License
 Use it, change it, fork it, sell it. Do what you will, but please leave the author attribution.
 
-##Version history
+## Version history
 
 **Version 1.0 (10-10-2012)**
 
@@ -128,6 +126,3 @@ Use it, change it, fork it, sell it. Do what you will, but please leave the auth
 **Version 1.0.5 (08-03-2015)**
 
 - Improve tabbing. Thanks to [gaboesquivel](https://github.com/gaboesquivel).
-
-
-
